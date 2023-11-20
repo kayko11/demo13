@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="../index.html">Home</a></li>
+        <li><a href="olympics.html">Olympics</a></li>
+        <li><a href="cricketwc.html">Cricket World Cup</a></li>
+        <li><a href="fifaworldcup.html">FIFA World Cup</a></li>
+        <li><a href="rugbywc.html">Rugby World Cup</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+    </ul>
+
+    <div class="container">
+        <form action="thankyou.html" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="UK">UK</option>
+            </select>
+
+            <label for="Sport">Sport</label>
+            <select id="Sport" name="Sport">
+                <option value="Football">Football</option>
+                <option value="Cricket">Cricket</option>
+                <option value="Rugby">Rugby</option>
+                <option value="Olympics">Olympics</option>
+            </select>
+
+            <label for="Comment">Comment</label>
+            <textarea id="Comment" name="Comment" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" class="button_active" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
